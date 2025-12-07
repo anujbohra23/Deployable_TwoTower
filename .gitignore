@@ -1,0 +1,5 @@
+.env
+artifacts/
+artifacts_clinical/
+artifacts_small/
+src/twotower_icd.egg-info
