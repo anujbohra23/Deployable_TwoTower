@@ -9,8 +9,7 @@ from __future__ import annotations
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from transformers import AutoModel
-
+from transformers import AutoModel 
 
 class ICDTower(nn.Module):
     def __init__(self, code_model_name: str = "emilyalsentzer/Bio_ClinicalBERT", d: int = 768):
@@ -25,3 +24,4 @@ class ICDTower(nn.Module):
         z = self.proj(cls)                         # [B, d]
         z = F.normalize(z, dim=-1)
         return z
+
