@@ -4,7 +4,7 @@
 
 A scalable retrieval–re-ranking architecture for automated ICD-10 coding using EHR structured data, clinical text, and transformer-based embeddings.
 
-This repository implements a **production-ready** version of the model described in the research work. It includes:
+This repository implements a **production-ready** version of the model described in the research work. It includes
 
 * A **Patient Tower** combining BERT-based clinical text embeddings + MLP-based structured EHR embeddings
 * An **ICD Tower** for encoding 8K+ ICD-10 disease descriptions
