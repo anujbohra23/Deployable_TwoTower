@@ -1,6 +1,6 @@
 '''
 This loads BioClinicalBERT and builds the ICD encoder, forward pass encodes ICD text
-using ClinicalBERT and projects to d-dim embedding, L2-normalized.
+using ClinicalBERT and projects to d-dim embedding, L2-normalized. 
 '''
 
 
@@ -24,4 +24,4 @@ class ICDTower(nn.Module):
         z = self.proj(cls)                         # [B, d]
         z = F.normalize(z, dim=-1)
         return z
-
+    

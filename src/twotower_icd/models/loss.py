@@ -22,3 +22,5 @@ def info_nce_inbatch(
     labels = torch.arange(z_pat.size(0), device=z_pat.device)
     loss = F.cross_entropy(sim, labels)
     return loss
+
+
