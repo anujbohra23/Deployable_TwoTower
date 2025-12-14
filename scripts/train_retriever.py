@@ -1,4 +1,5 @@
-# scripts/train_retriever.py
+#the train retriever is used to train the model. This is the one where all the things are gonna get combined together. 
+
 import argparse
 from twotower_icd.config import DataPaths, TrainingConfig
 from twotower_icd.training.train_retriever import train_retriever
