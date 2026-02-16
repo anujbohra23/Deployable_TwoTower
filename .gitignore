@@ -5,3 +5,14 @@ artifacts_small/
 src/twotower_icd.egg-info
 artifacts_clinical_mp/
 artifacts_clinical_mp_long/
+
+# mac / python junk
+.DS_Store
+__pycache__/
+*.pyc
+
+# model artifacts
+*.pt
+*.pth
+*.bin
+artifacts*/
