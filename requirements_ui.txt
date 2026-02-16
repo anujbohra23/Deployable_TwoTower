@@ -1,0 +1,15 @@
+# Additional requirements for Flask + Streamlit UI
+# Install these on top of your existing requirements.txt
+
+# Flask backend
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Streamlit frontend
+streamlit>=1.29.0
+
+# Data visualization
+plotly>=5.18.0
+
+# HTTP requests
+requests>=2.31.0

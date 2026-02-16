@@ -252,3 +252,10 @@ Sort scores → take top-K.
 
 ---
 
+
+
+
+
+Run api_service.py on port 8000: uvicorn api_service:app --reload --host 0.0.0.0 --port 8000
+
+Run streamlit_app.py: streamlit run streamlit_app.py

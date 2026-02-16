@@ -5,3 +5,15 @@ numpy>=1.24.0
 tqdm>=4.66.0
 pyyaml>=6.0
 faiss-cpu>=1.7.4   # optional, for ANN later
+
+
+# Existing dependencies
+torch>=2.0.0
+transformers>=4.30.0
+pandas
+numpy
+scikit-learn
+tqdm
+
+# New dependencies for re-ranking
+requests>=2.31.0
